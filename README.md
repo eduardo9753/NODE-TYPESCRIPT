@@ -1,5 +1,5 @@
 # CRUD Node-JS TypeScript
-Mantenimientos de datos en el entorno Node-JS con el lenguaje TypeScript y la Base de Datos NoSql Mongo DB
+Mantenimiento de datos en el entorno Node-JS con el lenguaje TypeScript y la Base de Datos NoSql Mongo DB
 
 ------------
 
