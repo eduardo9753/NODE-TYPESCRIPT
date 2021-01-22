@@ -6,7 +6,7 @@ Mantenimiento de datos en el entorno Node-JS con el lenguaje TypeScript y la Bas
 HERRAMIENTAS :
 - Base de Datos: Mongo DB.
 - Estilos: CSS3 y Bootstrap 4.
-- Lenguaje : Lenguaje TypeScrip.
+- Lenguaje : Lenguaje TypeScript.
 
 ## Arquitectura MVC
 1. MODELO: representación de los datos que maneja el sistema, su lógica de negocio, y sus mecanismos de persistencia.
