@@ -12,3 +12,17 @@ img{
     vertical-align: middle;
 }
 
+.fondo{
+    background-image: url(../img/fondo.jpg);
+    height: 90vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-h1{
+  padding-top: 20%;
+  color: yellow;
+  font-size: 55px;
+  font-family: 'Courier New', Courier, monospace;
+}
