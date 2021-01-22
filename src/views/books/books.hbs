@@ -1,0 +1,30 @@
+<section>
+    <div class="container">
+        <div class="row">
+            {{#each books}}
+            <div class="col-md-4 my-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-header">
+                           <img src="/{{path}}" alt="No hay Img">
+                        </div>
+                        <div class="card-body">
+                             <h2>{{title}}</h2>
+                            <p>{{author}}</p>
+                            <p>{{isbn}}</p>
+                        </div>
+                        <div class="card-header text-center">
+                            <form action="/books/delete/{{_id}}?_method=DELETE" method="POST">
+                              <input type="hidden" name="_method" value="DELETE">
+                              <input type="submit" class="btn btn-danger" value="Delete">
+                            </form>  
+                            <a href="/books/Edit/{{_id}}" class="btn btn-dark">Update book</a>
+                           <!-- <a href="/books/delete/{{_id}}" class="btn btn-dark">Delete book</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</section>
