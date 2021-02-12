@@ -7,6 +7,7 @@ HERRAMIENTAS :
 - Base de Datos: Mongo DB.
 - Estilos: CSS3 y Bootstrap 4.
 - Lenguaje : Lenguaje TypeScript.
+- Entorno : NODE JS.
 
 ## Arquitectura MVC
 1. MODELO: representación de los datos que maneja el sistema, su lógica de negocio, y sus mecanismos de persistencia.
@@ -14,14 +15,23 @@ HERRAMIENTAS :
 3. CONTROLADOR: intermediario entre el Modelo y la Vista, gestionando el flujo de información entre ellos y las transformaciones para adaptar los datos a las necesidades de cada uno.
 
 ## Imagenes
-PARTE CLIENTE:
+PARTE HOME:
 - 1
-![subida1](https://user-images.githubusercontent.com/68178186/105456364-0a502e80-5c53-11eb-88f0-1b62d98c1cc0.PNG)
+![1](https://user-images.githubusercontent.com/68178186/107720497-72b98b00-6ca8-11eb-83b9-9288c57beed2.PNG)
 - 2
-![subida2](https://user-images.githubusercontent.com/68178186/105456372-0cb28880-5c53-11eb-8b57-0ea4306c3c2a.PNG)
+![2](https://user-images.githubusercontent.com/68178186/107720502-74834e80-6ca8-11eb-9dd5-fcca58eb7341.PNG)
 - 3
-![subida3](https://user-images.githubusercontent.com/68178186/105456380-10dea600-5c53-11eb-9078-b30b4da50e5b.PNG)
+![3](https://user-images.githubusercontent.com/68178186/107720504-75b47b80-6ca8-11eb-8eaf-9fdb6f2ef70f.PNG)
+
+PARTE USER:
+- 1
+![user1](https://user-images.githubusercontent.com/68178186/107720452-5f0e2480-6ca8-11eb-83b8-cfb4fac018d9.PNG)
+- 2
+![user2](https://user-images.githubusercontent.com/68178186/107720460-646b6f00-6ca8-11eb-9233-0dca8b7da3c6.PNG)
+- 3
+![user3](https://user-images.githubusercontent.com/68178186/107720466-66cdc900-6ca8-11eb-93d9-865055dd0188.PNG)
 - 4
-![subida4](https://user-images.githubusercontent.com/68178186/105456389-13410000-5c53-11eb-8ddb-386ebfb6c24c.PNG)
+![user4](https://user-images.githubusercontent.com/68178186/107720472-69302300-6ca8-11eb-9266-0adeff2ec140.PNG)
 - 5
-![subida5](https://user-images.githubusercontent.com/68178186/105456393-15a35a00-5c53-11eb-968f-9d5619f8aae1.PNG)
+![user5](https://user-images.githubusercontent.com/68178186/107720482-6af9e680-6ca8-11eb-98be-4fc130fbe8e9.PNG)
+
