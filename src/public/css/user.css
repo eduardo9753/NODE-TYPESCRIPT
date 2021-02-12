@@ -1,0 +1,6 @@
+.btn-green { background-color: rgba(6, 156, 6, 0.8);}
+.btn-green:hover { background-color: rgba(6, 156, 6, .9); color: #fff;}
+
+
+.btn-red { background-color: rgba(230, 11, 11, 0.8);}
+.btn-red:hover { background-color: rgba(230, 11, 11, 0.9);}

@@ -16,13 +16,18 @@
                         <div class="card-header text-center">
                             <form action="/books/delete/{{_id}}?_method=DELETE" method="POST">
                               <input type="hidden" name="_method" value="DELETE">
-                              <input type="submit" class="btn btn-danger" value="Delete">
+                              <input type="submit" class="btn-cliente btn-red" value="Delete">
                             </form>  
-                            <a href="/books/Edit/{{_id}}" class="btn btn-dark">Update book</a>
+                            <a href="/books/Edit/{{_id}}" class="btn-cliente btn-green">Update book</a>
                            <!-- <a href="/books/delete/{{_id}}" class="btn btn-dark">Delete book</a> -->
                         </div>
                     </div>
                 </div>
+            </div>
+            {{else}}
+            <div class="col-md-6 mx-auto">
+                <p class="lead">Sin Publicaiones por Ahora</p>
+                <a href="/books/Form">Empezar a Publicar</a>
             </div>
             {{/each}}
         </div>

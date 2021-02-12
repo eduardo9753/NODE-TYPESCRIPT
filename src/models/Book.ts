@@ -11,6 +11,7 @@ export interface Book extends mongoose.Document {
     filename   : string ,
     path       : string ,
     size       : number ,
+    user       : Schema.Types.ObjectId //strin y no dio problema
 }
 
 const BookSchema = new Schema({
@@ -24,6 +25,10 @@ const BookSchema = new Schema({
     filename   : String ,
     path       : String ,
     size       : Number ,
+    user       : {
+        type : Schema.Types.ObjectId,
+        ref  : 'User'
+    }
 } , {
     timestamps : true
 });
